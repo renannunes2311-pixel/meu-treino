@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Treino</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>💪 Meu Treino</h1>
+        <p>Criado por Renan Nunes</p>
+    </header>
+
+    <div class="dias">
+
+        <button onclick="mostrarDia('segunda')">Segunda</button>
+        <button onclick="mostrarDia('terca')">Terça</button>
+        <button onclick="mostrarDia('quarta')">Quarta</button>
+        <button onclick="mostrarDia('quinta')">Quinta</button>
+        <button onclick="mostrarDia('sexta')">Sexta</button>
+
+    </div>
+
+    <div class="container">
+
+        <!-- SEGUNDA -->
+
+        <div id="segunda" class="dia ativo">
+
+            <h2>Treino A (Glúteo)</h2>
+
+            <div class="exercicio" data-id="cadeiraFlexora">Cadeira Flexora — 4x12</div>
+            <div class="exercicio" data-id="mesaFlexora">Mesa Flexora — 4x10</div>
+            <div class="exercicio" data-id="elevacaoPelvica">Elevação Pélvica — 4x12</div>
+            <div class="exercicio" data-id="afundoA">Afundo — 3x12</div>
+            <div class="exercicio" data-id="abducaoA">Abdução na Máquina — 4x15</div>
+            <div class="exercicio" data-id="stiff">Stiff com Barra — 4x10</div>
+            <div class="exercicio" data-id="prancha">Prancha — 3x40s</div>
+
+        </div>
+
+        <!-- TERÇA -->
+
+        <div id="terca" class="dia">
+
+            <h2>Treino B (Costas e Braço)</h2>
+
+            <div class="exercicio" data-id="puxada">Puxada na Frente — 4x10</div>
+            <div class="exercicio" data-id="roscaPolia">Rosca Direta na Polia — 4x12</div>
+            <div class="exercicio" data-id="crucifixo">Crucifixo Inverso — 3x12</div>
+            <div class="exercicio" data-id="remadaBaixa">Remada Baixa — 4x10</div>
+            <div class="exercicio" data-id="remadaUni">Remada Unilateral — 3x12</div>
+            <div class="exercicio" data-id="triceps">Tríceps Máquina — 4x10</div>
+            <div class="exercicio" data-id="scott">Scott Máquina — 3x12</div>
+            <div class="exercicio" data-id="infra">Abdominal Infra — 3x15</div>
+
+        </div>
+
+        <!-- QUARTA -->
+
+        <div id="quarta" class="dia">
+
+            <h2>Treino C (Pernas)</h2>
+
+            <div class="exercicio" data-id="smith">Agachamento Smith — 4x10</div>
+            <div class="exercicio" data-id="leg">Leg Press 45 — 4x12</div>
+            <div class="exercicio" data-id="extensora">Cadeira Extensora — 4x12</div>
+            <div class="exercicio" data-id="afundoC">Afundo — 3x12</div>
+            <div class="exercicio" data-id="bulgaro">Búlgaro — 3x10</div>
+            <div class="exercicio" data-id="adutora">Adutora — 4x15</div>
+            <div class="exercicio" data-id="abducaoC">Abdução Máquina — 4x15</div>
+            <div class="exercicio" data-id="supra">Abdominal Supra — 3x15</div>
+
+        </div>
+
+        <!-- QUINTA -->
+
+        <div id="quinta" class="dia">
+
+            <h2>Treino A (Glúteo)</h2>
+
+            <div class="exercicio" data-id="quinta1">Cadeira Flexora — 4x12</div>
+            <div class="exercicio" data-id="quinta2">Mesa Flexora — 4x10</div>
+            <div class="exercicio" data-id="quinta3">Elevação Pélvica — 4x12</div>
+
+        </div>
+
+        <!-- SEXTA -->
+
+        <div id="sexta" class="dia">
+
+            <h2>Treino B (Costas e Braço)</h2>
+
+            <div class="exercicio" data-id="sexta1">Puxada na Frente — 4x10</div>
+            <div class="exercicio" data-id="sexta2">Rosca Direta na Polia — 4x12</div>
+            <div class="exercicio" data-id="sexta3">Abdominal Infra — 3x15</div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

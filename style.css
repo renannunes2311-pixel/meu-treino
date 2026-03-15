@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 20px 10px;
+    background: #020617;
+    border-bottom: 1px solid #1e293b;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    margin-top: 5px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* DIAS DA SEMANA */
+
+.dias {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 12px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+.dias button {
+    flex: 0 0 auto;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 12px;
+    background: #22c55e;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* CONTAINER */
+
+.container {
+    padding: 16px;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* TITULO DO TREINO */
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* DIAS */
+
+.dia {
+    display: none;
+}
+
+.dia.ativo {
+    display: block;
+}
+
+/* EXERCICIOS */
+
+.exercicio {
+    background: #1e293b;
+    padding: 16px;
+    border-radius: 14px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.exercicio:active {
+    transform: scale(0.97);
+}
+
+/* QUANDO CONCLUIDO */
+
+.exercicio.feito {
+    background: #22c55e;
+    text-decoration: line-through;
+    color: white;
+}
